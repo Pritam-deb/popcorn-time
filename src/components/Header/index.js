@@ -10,7 +10,7 @@ const Header = () => {
         <Wrapper>
             <Content>
                 <LogoImg src={RMDBLogo} alt='rmdb-logo'/>
-                <TMDBLogo src={TMBDLogoImg} alt='tmbd-logo'/>
+                <TMBDLogoImg src={TMDBLogo} alt='tmbd-logo'/>
             </Content>
         </Wrapper>
     )
