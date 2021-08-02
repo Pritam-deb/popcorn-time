@@ -2,7 +2,7 @@ import RMDBLogo from '../../images/react-movie-logo.svg';
 import TMDBLogo from '../../images/tmdb_logo.svg';
 
 import {
-    Wrapper, Content, LogoImg, TMBDLogoImg
+    Wrapper, Content, LogoImg, TMDBLogoImg
 } from './Header.styles'
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <Wrapper>
             <Content>
                 <LogoImg src={RMDBLogo} alt='rmdb-logo'/>
-                <TMBDLogoImg src={TMDBLogo} alt='tmbd-logo'/>
+                <TMDBLogoImg src={TMDBLogo} alt='tmbd-logo'/>
             </Content>
         </Wrapper>
     )
